@@ -2028,7 +2028,7 @@ figure:hover figcaption {
 }
 .call-to-action-section {
   padding: 60px 0;
-  background: url(../images/cta-bg.jpg) no-repeat scroll center center;
+  background: url(../image/banner/cta-bg.jpg) no-repeat scroll center center;
   background-size: cover;
 }
 .call-to-action-section h1 {
@@ -2041,6 +2041,27 @@ figure:hover figcaption {
   font-size: 24px;
   color: rgba(255, 255, 255, 0.7);
   text-transform: uppercase;
+}
+.page-title-section {
+  position: relative;
+  background: url(../image/banner/page-title-bg.jpg) no-repeat scroll center center;
+  background-size: cover
+}
+
+.page-title-section .title-center {
+  padding-top: 65px
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+  .page-title-section .title-center {
+      padding-top: 80px
+  }
+}
+
+@media(max-width:767px) {
+  .page-title-section .title-center {
+      padding-top: 90px
+  }
 }
 .about-title-section {
   position: relative;
