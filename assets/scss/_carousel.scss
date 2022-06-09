@@ -1,0 +1,87 @@
+/* Image Carousel */
+#Material-image-carousel {
+	.owl-nav {
+		text-align: center;
+		margin-top: -12px;
+		position: absolute;
+		top: 50%;
+		display: inline-block;
+		width: 100%;
+
+		@media #{$xs} {
+			display: none;
+		}
+		button {
+			font-size: 30px;
+
+			&:focus {
+				border: none;
+			}
+
+			&.owl-prev {
+				left: -42px;
+				position: absolute;
+			}
+
+			&.owl-next {
+				right: -42px;
+				position: absolute;
+			}
+		}		
+	}
+}
+#team-carousel {
+	.owl-nav {
+		text-align: center;
+		margin-top: 10px;
+	}
+}
+.owl-theme .owl-buttons div{
+	width: 40px;
+	height: 40px;
+	display: block !important;
+	background: #5166d8 !important;
+	text-align: center;
+	display: inline-block;
+	opacity: 1 !important;
+	border-radius: 0 !important;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.18), 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+	transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+}
+.owl-theme .owl-buttons div i{
+	color: #fff;
+	font-size: 16px;
+	line-height: 40px;
+}
+.touch-slider .owl-controls .owl-buttons div i{
+	color: #333;
+	display: block;
+	&:hover{
+		color: #fff!important;
+	}
+}
+button:focus {
+	outline: none;
+}
+.owl-theme {
+	.owl-dots {
+		position: absolute;
+		width: 100%;
+		text-align: center;
+		bottom: -30px;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+
+		.owl-dot {
+			width: 10px;
+			height: 10px;
+			border-radius: 50%;
+			background: #333;
+			margin: 0 5px;
+		}
+	}
+}
