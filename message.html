@@ -198,34 +198,7 @@ p {
     </style>
 </head>
 <body>
-  <div class="div1"> 
-    <div class="div2">
-      
-      
-    <form>
-        <label for="pswd">Enter password: </label>
-      </br>
-        <input type="password" id="pswd" class="box">
-      </br>
-        <input type="button" value="Submit" onclick="checkPswd();"                              class="confirm" />
-    </form>
-    </div>
-  </div>
-<!--Function to check password the already set password is admin-->
-<script type="text/javascript">
-    function checkPswd() {
-        var confirmPassword = "admin";
-        var password = document.getElementById("pswd").value;
-        if (password == confirmPassword) {
-             window.location="https://www.speedquizzing.com";
-        window.location="welcome.html";
-        }
-        else{
-            alert("Passwords do not match.");
-        }
-    }
-</script>
-      
+  
 <script type="text/javascript">
 function copyFull() {
   //copys inner html of target div. 
