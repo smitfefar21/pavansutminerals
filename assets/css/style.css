@@ -24,6 +24,7 @@ h6 {
   color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
+  text-transform: uppercase;
 }
 a {
   -webkit-transition: all 0.2s linear;
