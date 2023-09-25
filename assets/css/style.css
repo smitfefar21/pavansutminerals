@@ -21,10 +21,6 @@ h5,
 h6 {
   font-family: rubik, sans-serif;
   color: #404040;
-  color: transparent;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  text-transform: uppercase;
 }
 a {
   -webkit-transition: all 0.2s linear;
